@@ -1,0 +1,103 @@
+
+/* Custom CSS for additional styling */
+body{
+    background-color: #f1f1f1;
+  }
+.content{
+    padding: 30px;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center content horizontally */
+}
+.middle{
+    width: 45%;
+}
+.side-nav{
+    padding-right: 30px;
+    padding-top: 50px;
+    position: fixed;
+    top: 5%; /* Adjust the value as needed */
+    left: 20%; /* Adjust the value as needed */
+}
+.middle{
+    justify-content: center;
+}
+.list-of-4{
+    list-style-type: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+ul img{
+    height: 20px;
+    cursor: pointer;
+}
+
+ul li{
+    padding: 5px;
+    cursor: pointer;
+}
+.navbar {
+    justify-content: center; /* Center content horizontally */
+    background-color: #ffffff; /* Grey background color */
+}
+.navbar-nav {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically */
+}
+.navbar-nav .nav-item {
+    margin-right: 10px; /* Add some spacing between items */
+}
+.navbar-search {
+    border: 2px solid #ccc; /* Grey border */
+    padding: 1px 5px; /* Adjust padding */
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically */
+    background-color: #fff; /* White background color */
+}
+.navbar-search input {
+    border: none; /* Remove input border */
+    outline: none; /* Remove input outline */
+    margin-left: 5px; /* Add some spacing between icon and input */
+}
+.navbar-button {
+    border-radius: 20px; /* Rounded corners */
+    background-color: #ffffff; /* Maroon background color */
+    color: #656565; /* White text color */
+}
+.add-question-button {
+    background-color: #ac0404; /* Maroon background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+    border-radius: 20px; /* Rounded corners */
+    padding: 8px 40px; /* Adjust padding */
+}
+input[type="text"] {
+    border-radius: 20px; /* Adjust the value as needed */
+}
+
+.three-buttons {
+    display: flex; /* Use flexbox */
+    margin-left: 15%;
+    cursor: pointer;
+    justify-content: space-between; /* Distribute space evenly between items */
+}
+
+.three-buttons .button1,
+.three-buttons .button2,
+.three-buttons .button3 {
+    display: flex;
+    flex-grow: 1; /* Each button takes up equal space */
+}
+
+.three-buttons p{
+    padding-left: 5px;
+}
+
+.another-list{
+    font-size: small;
+    list-style-type: none;
+    padding: 0;
+}
+.card-body {
+    padding: 10px; /* Adjust the value as needed */
+}
